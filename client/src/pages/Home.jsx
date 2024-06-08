@@ -2,24 +2,24 @@ export default function Home() {
   return (
     <div className='px-4 py-12 max-w-2xl mx-auto'>
       <h1 className='text-3xl font-bold  mb-4 text-slate-800'>
-        Welcome to my Auth App!
+        Welcome to My Authentication App!
       </h1>
-      <p className='mb-4 text-slate-700'>
-        This is a full-stack web application built with the MERN (MongoDB,
-        Express, React, Node.js) stack. It includes authentication features that
-        allow users to sign up, log in, and log out, and provides access to
-        protected routes only for authenticated users.
+      <p className="text-gray-800 mb-5">
+        This application is a comprehensive full-stack web project built with
+        the MERN (MongoDB, Express, React, Node.js) stack. It features
+        user authentication allowing for registration, login, and logout, and
+        secures certain routes so they can only be accessed by authenticated users.
       </p>
-      <p className='mb-4 text-slate-700'>
-        The front-end of the application is built with React and uses React
-        Router for client-side routing. The back-end is built with Node.js and
-        Express, and uses MongoDB as the database. Authentication is implemented
+      <p className="text-gray-800 mb-5">
+        On the front-end, we utilize React along with React Router for seamless
+        client-side navigation. The back-end is powered by Node.js and Express,
+        with MongoDB serving as our database. Authentication processes are managed
         using JSON Web Tokens (JWT).
       </p>
-      <p className='mb-4 text-slate-700'>
-        This application is intended as a starting point for building full-stack
-        web applications with authentication using the MERN stack. Feel free to
-        use it as a template for your own projects!
+      <p className="text-gray-800 mb-5">
+        This project serves as a robust template for developing full-stack web
+        applications with authentication functionalities using the MERN stack. 
+        You are welcome to adapt and extend it for your own development needs!
       </p>
     </div>
   );
